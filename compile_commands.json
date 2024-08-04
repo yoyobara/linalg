@@ -1,0 +1,32 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I./include",
+      "-Wall",
+      "-std=c++17",
+      "-c",
+      "-o",
+      "lib/matrix.o",
+      "src/matrix.cpp"
+    ],
+    "directory": "/home/yoyobara/C/linalg",
+    "file": "/home/yoyobara/C/linalg/src/matrix.cpp",
+    "output": "/home/yoyobara/C/linalg/lib/matrix.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-I./include",
+      "-Wall",
+      "-std=c++17",
+      "-c",
+      "-o",
+      "lib/matrix_test.o",
+      "tests/matrix_test.cpp"
+    ],
+    "directory": "/home/yoyobara/C/linalg",
+    "file": "/home/yoyobara/C/linalg/tests/matrix_test.cpp",
+    "output": "/home/yoyobara/C/linalg/lib/matrix_test.o"
+  }
+]

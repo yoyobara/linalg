@@ -1,7 +1,7 @@
 # Define compiler and flags
 CXX = g++
 CXXFLAGS = -I./include -Wall -std=c++17
-LDFLAGS = -lgtest
+LDFLAGS = -lgtest -lgtest_main
 
 # Define directories
 SRCDIR = src
