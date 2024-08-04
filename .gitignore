@@ -1,0 +1,54 @@
+# Compiled object files
+*.o
+
+# Compiled static libraries
+*.a
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executable files
+*.exe
+bin/*
+
+# Debug files
+*.dSYM/
+*.stackdump
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Google Test binaries
+test-bin/
+
+# Build directories
+build/
+lib/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# Backup files
+*.bak
+*.old
+
+# Other
+*.out
+*.aux
+*.run
